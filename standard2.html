@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Standard 2: Learning Difference</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">ELA Standards</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="standard1.html">Standard 1</a>
+</li>
+<li>
+  <a href="standard2.html">Standard 2</a>
+</li>
+<li>
+  <a href="standard3.html">Standard 3</a>
+</li>
+<li>
+  <a href="standard4.html">Standard 4</a>
+</li>
+<li>
+  <a href="standard5.html">Standard 5</a>
+</li>
+<li>
+  <a href="standard6.html">Standard 6</a>
+</li>
+<li>
+  <a href="standard7.html">Standard 7</a>
+</li>
+<li>
+  <a href="standard8.html">Standard 8</a>
+</li>
+<li>
+  <a href="standard9.html">Standard 9</a>
+</li>
+<li>
+  <a href="standard10.html">Standard 10</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Standard 2: Learning Difference</h1>
+
+</div>
+
+
+<script type="text/javascript">
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script>
+<hr />
+<p>The teacher uses understanding of individual differences and diverse cultures and communities to ensure inclusive learning environments that enable each learner to meet high standards.</p>
+<hr />
+<div id="section" class="section level3 tabset tabset-pills tabset-fade">
+<h3></h3>
+<div id="performance-2.1" class="section level4">
+<h4>Performance 2.1</h4>
+<div style="padding-left:1px;">
+<p>Candidates implement instruction responsive to students’ individual identities.</p>
+<h5 id="evidence-1-annotated-bibliography-labs">Evidence 1: Annotated Bibliography (Labs)</h5>
+<div style="padding-left:40px;">
+<p><strong>Prompt</strong></p>
+<p>You will sign up for one of the following topics:</p>
+<ol style="list-style-type: decimal">
+<li>Social justice—what is it? How does it connect to the ELA classroom?—Standard 5B</li>
+<li>How do language and dialect affect literacy?—Standards 2A and 3A</li>
+</ol>
+<p>Find at least three scholarly journal articles on that topic and compile the information into an annotated bibliography. Use MLA formatting for citation purposes. <a href="mailto:OWL@Purdue.edu" class="email">OWL@Purdue.edu</a> will help you organize your annotated bibliography. (45 points for bibliography, 15 points for discussion, 60 total)</p>
+<p><strong>Excellent Performance</strong>: sample <a href="https://drive.google.com/file/d/1C20BFY97qLt1DwKCUjc4xhvFHdzXZ-vO/view?usp=sharing">here</a> (from ENG 430 Spring ’19).</p>
+<p><strong>Average Performance</strong>: sample <a href="https://drive.google.com/file/d/13I6TK57Qefvd-ok2F76hDai66Ke3augw/view?usp=sharing">here</a> (from ENG 430 Spring ’19).</p>
+<p><strong>Poor Performance</strong>: sample <a href="https://drive.google.com/file/d/1G84mOFKFVuzOW7pgDjmMW_bv8RtDpoEq/view?usp=sharing">here</a> (from ENG 430 Spring ’19).</p>
+</div>
+<h5 id="evidence-2-writing-sequences-329">Evidence 2: Writing Sequences (329)</h5>
+<div style="padding-left:40px;">
+<p><strong>Prompt</strong></p>
+<p>This assignment is lesson planning to teach four genres of writing: fiction, personal narrative, argumentation, and research. You will plan through five stages, which roughly correspond to pre-writing, writing, editing/evaluation. This will happen in five stages. A sample of this assignment will be provided.</p>
+<p><strong>Excellent Performance</strong>: sample <a href="https://drive.google.com/file/d/14c-s3xbLpPA5GmTEN6by0G7BSe18HE3P/view?usp=sharing">here</a> (from ENG 329 Fall ’19 ~ Sister Glenn).</p>
+<p><strong>Average Performance</strong>: sample <a href="https://drive.google.com/file/d/17pDWqY7JhXYMGLn_3AsjOaAbq3gZvLbv/view?usp=sharing">here</a> (from ENG 329 Fall ’19 ~ Sister Glenn).</p>
+<p><strong>Poor Performance</strong>: sample <a href="https://drive.google.com/file/d/1dqjt2gg9v0hybme0MM1qyEYnPlZZ-8_T/view?usp=sharing">here</a> (from ENG 329 Fall ’19 ~ Sister Glenn).</p>
+</div>
+<h5 id="evidence-3-lit-circles---leading-a-discussion-356">Evidence 3: Lit Circles - Leading a Discussion (356)</h5>
+<div style="padding-left:40px;">
+<p><strong>Prompt</strong></p>
+<p>Actively participate in novel discussions by completing your assigned group role and speaking in your group discussions. Discussion will take place in class.</p>
+<ol style="list-style-type: decimal">
+<li><em>Role: Sociological Lens</em>: The point of this role is to explore the role of power in a society. Many today are discussing social justice themes—this is an opportunity for you to be aware and join the conversation on this topic by exploring power within the context of literature.</li>
+<li><em>Role: Social Justice Lens</em>: Publishers, editors, writers, and teachers work together when it comes to using Young Adult Literature in a classroom. Any of these groups of people post teaching ideas online. For this literature circle role, you will create a lesson plan that focuses on a social justice theme.</li>
+</ol>
+<p><strong>Excellent Performance</strong>: sample <a href="https://drive.google.com/file/d/1Cg2qMwNqeTX13pNrPieiJXIkdCOQOIb0/view?usp=sharing">here</a> (from ENG 356 Fall ’19 ~ Sister Kunz/Glenn).</p>
+<p><strong>Average Performance</strong>: sample <a href="https://drive.google.com/file/d/1-tAnXAd4FvG_2aPo4j7Px8br-6-9fmY4/view?usp=sharing">here</a> (from ENG 356 Fall ’19 ~ Sister Kunz/Glenn).</p>
+<p><strong>Poor Performance</strong>: sample <a href="https://drive.google.com/file/d/1Hh9M080qEOybnahkxI2JLnwJ1ftA1jxO/view?usp=sharing">here</a> (from ENG 356 Fall ’19 ~ Sister Kunz/Glenn).</p>
+</div>
+</div>
+<hr />
+</div>
+<div id="performance-2.2" class="section level4">
+<h4>Performance 2.2</h4>
+<div style="padding-left:1px;">
+<p>Candidates design and/or implement instruction that incorporates students’ linguistic and cultural backgrounds.</p>
+<h5 id="evidence-1-book-pusher-356">Evidence 1: Book Pusher (356)</h5>
+<div style="padding-left:40px;">
+<p><strong>Prompt</strong></p>
+<p>You must your professor that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:</p>
+<ol style="list-style-type: upper-alpha">
+<li>Tell Sara or me about the person you are targeting. Be specific so we have a good idea of who this individual is (2 minutes).</li>
+<li>You must then make your three book recommendations and explain why those are the best choices for the individual you just described (5-6 minutes).</li>
+<li>At the end, you will discuss some of your findings from your personal reflection (1-2 minutes).</li>
+</ol>
+<p><strong>Performance (final scores average)</strong></p>
+<p><img src="standard2_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<h5 id="evidence-2-lit-links-356">Evidence 2: Lit Links (356)</h5>
+<div style="padding-left:40px;">
+<p><strong>Prompt</strong></p>
+<p>Publishers, editors, writers, and teachers work together when it comes to using Young Adult Literature in a classroom. Any of these groups of people post teaching ideas online. For this literature circle role, you will create a document that gives links and advice on teaching a Young Adult novel.</p>
+<p>Parts of the LitLinks:</p>
+<ol style="list-style-type: decimal">
+<li>Title and Summary. Please provide a brief summary of the text. -3 points</li>
+<li>Links to sites about two different themes in the book. Please provide a description of the links. If possible, provide modern day connections. –10 points</li>
+<li>Links to at least two teaching ideas. Please provide a description of the links. Choose activities that would serve a diverse group. –12 points</li>
+</ol>
+<p><strong>Excellent Performance</strong>: sample <a href="https://drive.google.com/file/d/1vsU6LV1xoRqCD-rE-eS0lQIT02w67gX6/view?usp=sharing">here</a> (from ENG 356 Spring ’19)</p>
+<p><strong>Average Performance</strong>: sample <a href="https://drive.google.com/file/d/1pZbtcAj85PTEt-XA4InYzVupzMEQDItn/view?usp=sharing">here</a> (from ENG 356 Spring ’19)</p>
+<p><strong>Poor Performance:</strong> sample <a href="https://drive.google.com/file/d/1eYqYIrtLYLpfxvu_qJcchiRELGZvIdY3/view?usp=sharing">here</a> (from ENG 356 Spring ’19)</p>
+</div>
+<h5 id="evidence-3-writing-sequences-329">Evidence 3: Writing Sequences (329)</h5>
+<div style="padding-left:40px;">
+<p><strong>Prompt</strong></p>
+<p>This assignment is lesson planning to teach four genres of writing: fiction, personal narrative, argumentation, and research. You will plan through five stages, which roughly correspond to pre-writing, writing, editing/evaluation. This will happen in five stages. A sample of this assignment will be provided.</p>
+<p><strong>Excellent Performance</strong>: sample <a href="https://drive.google.com/file/d/14c-s3xbLpPA5GmTEN6by0G7BSe18HE3P/view?usp=sharing">here</a> (from ENG 329 Fall ’19 ~ Sister Glenn).</p>
+<p><strong>Average Performance</strong>: sample <a href="https://drive.google.com/file/d/17pDWqY7JhXYMGLn_3AsjOaAbq3gZvLbv/view?usp=sharing">here</a> (from ENG 329 Fall ’19 ~ Sister Glenn).</p>
+<p><strong>Poor Performance</strong>: sample <a href="https://drive.google.com/file/d/1dqjt2gg9v0hybme0MM1qyEYnPlZZ-8_T/view?usp=sharing">here</a> (from ENG 329 Fall ’19 ~ Sister Glenn).</p>
+</div>
+</div>
+<hr />
+<footer>
+</footer>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
