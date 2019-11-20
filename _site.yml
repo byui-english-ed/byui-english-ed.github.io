@@ -1,0 +1,28 @@
+name: "standards"
+navbar:
+  title: "ELA Standards"
+  left:
+    - text: "Standard 1"
+      href: standard1.html
+    - text: "Standard 2"
+      href: standard2.html
+    - text: "Standard 3"
+      href: standard3.html
+    - text: "Standard 4"
+      href: standard4.html
+    - text: "Standard 5"
+      href: standard5.html
+    - text: "Standard 6"
+      href: standard6.html
+    - text: "Standard 7"
+      href: standard7.html
+    - text: "Standard 8"
+      href: standard8.html
+    - text: "Standard 9"
+      href: standard9.html
+    - text: "Standard 10"
+      href: standard10.html
+  
+output_dir: '.'
+
+  

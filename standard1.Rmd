@@ -1,0 +1,246 @@
+---
+title: "Standard 1: Learner Development"
+output: 
+  html_document: 
+    theme: cerulean
+    css: styles.css
+    code_folding: hide
+    
+---
+
+<script type="text/javascript">
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script>
+
+----
+
+The teacher understands how learners grow and develop, recognizing that patterns of learning and development vary individually within and across the cognitive, linguistic, social, emotional, and physical areas, and designs and implements developmentally appropriate and challenging learning experiences.
+
+----
+
+### {.tabset .tabset-pills .tabset-fade}
+
+
+#### Performance 1.1
+
+<div style="padding-left:1px;">
+
+Candidates know developmental stages.
+
+
+##### Evidence 1: Writing Sequences (329)
+
+<div style="padding-left:40px;">
+
+**Prompt**
+
+This assignment is lesson planning to teach four genres of writing: fiction, personal narrative, argumentation, and research.  You will plan through five stages, which roughly correspond to pre-writing, writing, editing/evaluation. This will happen in five stages. A sample of this assignment will be provided.
+
+**Excellent Performance**: sample [here](https://drive.google.com/file/d/14c-s3xbLpPA5GmTEN6by0G7BSe18HE3P/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+
+**Average Performance**: sample [here](https://drive.google.com/file/d/17pDWqY7JhXYMGLn_3AsjOaAbq3gZvLbv/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+
+**Poor Performance**: sample [here](https://drive.google.com/file/d/1dqjt2gg9v0hybme0MM1qyEYnPlZZ-8_T/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+</div>
+
+##### Evidence 2: Book Pusher (356)
+<div style="padding-left:40px;">
+**Prompt**
+
+You must your professor that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:
+
+A) Tell Sara or me about the person you are targeting. Be specific so we have a good idea of who this individual is (2 minutes).
+B) You must then make your three book recommendations and explain why those are the best choices for the individual you just described (5-6 minutes).
+C) At the end, you will discuss some of your findings from your personal reflection (1-2 minutes). 
+
+**Performance (final scores average)**
+
+```{r include=FALSE}
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r echo=FALSE}
+
+book_pusher <- read.csv("book_pusher_grades.csv")
+
+data <- book_pusher %>% 
+  mutate(
+    Performance = case_when(
+      Grades %in% c(90:100) ~ "Excellent",
+      Grades %in% c(80:89) ~ "Average",
+      Grades %in% c(0:88) ~ "Poor"
+    )
+  ) 
+
+barplot(table(data$Semester,data$Performance), beside = TRUE, col = c("skyblue", "lightyellow"), legend.text = TRUE, xlab = "Book Pusher Final Grades", ylab = "Number of Students")
+
+```
+
+</div>
+
+
+##### Evidence 3: (pending)
+<div style="padding-left:40px;">
+**Prompt**
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+
+</div>
+
+----
+
+
+#### Performance 1.2
+
+<div style="padding-left:1px;">
+Candidates know how adolescents read.
+ 
+ 
+
+##### Evidence 1: Annotated Bibliography (lab)
+
+<div style="padding-left:40px;">
+
+**Prompt**
+
+You will sign up for one of the following topics:
+
+*	What are best practices (strategies/activities) in teaching vocabulary to teens?—Standard 4D
+*	What are evidence (data and/or numbers) based  literacy strategies for teens?—Standard 1B
+*	How do language and dialect affect literacy?—Standards 2A and 3A
+
+Find at least three scholarly journal articles on that topic and compile the information into an annotated bibliography. Use MLA formatting for citation purposes. OWL@Purdue.edu will help you organize your annotated bibliography. 
+
+
+**Excellent Performance**: sample [here](https://drive.google.com/file/d/1C20BFY97qLt1DwKCUjc4xhvFHdzXZ-vO/view?usp=sharing) (from ENG 430 Spring '19).
+
+**Average Performance**: sample [here](https://drive.google.com/file/d/13I6TK57Qefvd-ok2F76hDai66Ke3augw/view?usp=sharing) (from ENG 430 Spring '19).
+
+**Poor Performance**: sample [here](https://drive.google.com/file/d/1G84mOFKFVuzOW7pgDjmMW_bv8RtDpoEq/view?usp=sharing) (from ENG 430 Spring '19).
+</div>
+
+##### Evidence 2: Lit Links (356)
+<div style="padding-left:40px;">
+**Prompt**
+
+Publishers, editors, writers, and teachers work together when it comes to using Young Adult Literature in a classroom. Any of these groups of  people post teaching ideas online.  For this literature circle role, you will create a document that gives links and advice on teaching a Young Adult novel. 
+
+Parts of the LitLinks:
+
+1.	Title and Summary. Please provide a brief summary of the text. -3 points
+2.	Links to sites about two different themes in the book. Please provide a description of the links. If possible, provide modern day connections. –10 points
+3.	Links to at least two teaching ideas. Please provide a description of the links. Choose activities that would serve a diverse group. –12 points
+
+
+**Excellent Performance**: sample [here](https://drive.google.com/file/d/1vsU6LV1xoRqCD-rE-eS0lQIT02w67gX6/view?usp=sharing) (from ENG 356 Spring '19)
+
+**Average Performance**: sample [here](https://drive.google.com/file/d/1pZbtcAj85PTEt-XA4InYzVupzMEQDItn/view?usp=sharing) (from ENG 356 Spring '19)
+
+**Poor Performance:** sample [here](https://drive.google.com/file/d/1eYqYIrtLYLpfxvu_qJcchiRELGZvIdY3/view?usp=sharing) (from ENG 356 Spring '19)
+</div>
+
+
+##### Evidence 3: Goodreads (356)
+<div style="padding-left:40px;">
+**Prompt**
+
+This semester you will read 20 YA books.Many of these are not difficult to read, but it is essential that you keep up with both the reading and the assignments.  In order to stay on top of things, plan to read two books per week. That pace should keep you from grief at the end of the semester. (10 points per book, 200 total/20 points for the Reading Record) 
+
+20 books:
+
+A)	8 class assigned books  (the 9th  and 10th will be books of your choice in connection to our multicultural book studies)
+B)	1 book from Honor List (or other award winner)—please mark on reading record
+C)	8 books your choice—various genres, time periods—please mark on reading record
+D)	1 censored book (in addition to I am the Cheese)—please mark on reading record
+
+NOTE: Please do not read books in which you have already read or seen the movie (Harry Potter series, Hunger Games series, The Giver quartet, Maze Runner series, Twilight Series, etc.). Where you are already familiar with these books/movies, do yourself a favor and branch out—read something new. This will benefit you in the end. 
+
+
+**Excellent Performance**: sample [here](https://www.goodreads.com/review/list/96688926?shelf=books-1-10) (from ENG 356 Spring '19).
+
+**Average Performance**: sample [here](https://www.goodreads.com/review/list/96494563?shelf=1-10-reads) (from ENG 356 Spring '19).
+
+**Poor Performance**: sample [here](https://www.goodreads.com/review/list/5294647?shelf=books-1-10) (from ENG 356 Spring '19).
+</div>
+
+
+</div>
+
+
+----
+
+
+
+#### Performance 1.3
+
+<div style="padding-left:1px;">
+Candidates know how adolescents compose texts.
+ 
+ 
+
+##### Evidence 1: Writing Unit (329)
+
+<div style="padding-left:40px;">
+
+**Prompt**
+
+Each student will participate in developing a group writing unit.  Each student will be responsible for a personal section of the unit, as well as the overall unit.  Each group will develop a unit for a specific type of writing, complete with goals, pre-writing and writing activities, *a technology piece*, evaluations/assessments, and accommodations for students.  The group will establish goals for the writing unit, a reflective piece, and a rubric for grading the writing.  The individual members of the group will each find or develop pre-writing activities, writing activities, evaluations/assessments and accommodations for students.  Each student will receive both an individual and a group grade. 
+
+**Excellent Performance**: sample [here](https://drive.google.com/file/d/1Ikk3WzOdfRHMjIUff8vMC-3Qe2_uSbI-/view?usp=sharing) (from ENG 429 Winter '19).
+
+**Average Performance**: sample [here](https://drive.google.com/file/d/1DlzU96QTgm9QeO200YXII3wHz4WLZDJP/view?usp=sharing) (from ENG 429 Winter '19).
+
+**Poor Performance**: sample [here](https://drive.google.com/file/d/180NVk5dWLWIbTVTldcIWgzWGYWlMF082/view?usp=sharing) (from ENG 429 Winter '19).
+</div>
+
+##### Evidence 2: Annotated Bibliography (329)
+<div style="padding-left:40px;">
+**Prompt**
+
+You will sign up for one of the following topics:
+
+
+*	What are evidence (data and/or numbers) based  literacy strategies for teens?—Standard 1B
+*	How do language and dialect affect literacy?—Standards 2A and 3A
+
+
+Find at least three scholarly journal articles on that topic and compile the information into an annotated bibliography. Use MLA formatting for citation purposes. OWL@Purdue.edu will help you organize your annotated bibliography.   
+
+**Excellent Performance**: sample [here](https://drive.google.com/file/d/1C20BFY97qLt1DwKCUjc4xhvFHdzXZ-vO/view?usp=sharing) (from ENG 430 Spring '19).
+
+**Average Performance**: sample [here](https://drive.google.com/file/d/13I6TK57Qefvd-ok2F76hDai66Ke3augw/view?usp=sharing) (from ENG 430 Spring '19).
+
+**Poor Performance**: sample [here](https://drive.google.com/file/d/1G84mOFKFVuzOW7pgDjmMW_bv8RtDpoEq/view?usp=sharing) (from ENG 430 Spring '19).
+
+</div>
+
+
+##### Evidence 3: Writing Sequences (329)
+<div style="padding-left:40px;">
+**Prompt**
+
+This assignment is lesson planning to teach four genres of writing: fiction, personal narrative, argumentation, and research.  You will plan through five stages, which roughly correspond to pre-writing, writing, editing/evaluation. This will happen in five stages. A sample of this assignment will be provided.
+
+**Excellent Performance**: sample [here](https://drive.google.com/file/d/14c-s3xbLpPA5GmTEN6by0G7BSe18HE3P/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+
+**Average Performance**: sample [here](https://drive.google.com/file/d/17pDWqY7JhXYMGLn_3AsjOaAbq3gZvLbv/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+
+**Poor Performance**: sample [here](https://drive.google.com/file/d/1dqjt2gg9v0hybme0MM1qyEYnPlZZ-8_T/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+</div>
+
+
+</div>
+
+----
+
+<footer></footer>

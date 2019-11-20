@@ -1,0 +1,626 @@
+---
+title: "Idaho Standards for English Language Arts Teachers"
+output: 
+  html_document:
+    theme: cerulean
+    css: styles.css
+---
+
+This website may be used for accreditation purposes. It includes evidence that the English Education department at BYU-I is following the standards dictated by the state of Idaho for English Language Arts teachers. 
+
+## Summary 
+
+----
+
+### Standard 1: Learner Development {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+1.1. Knows developmental stages.
+
+1.2. Knows how adolescents read.
+
+1.3. Knows how adolescents compose texts.
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+1.1 Writing Sequences (329), Book Pusher (356), Lexile Score and User (356)
+
+1.2 Annotated Bibliography (Seminars), Lesson Outline (329), Goodreads (356)
+
+1.3 Technology Lesson Plan (329), Annotated Bibliography (329), Writing Sequences (329)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+### Standard 2: Learning Differences {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+
+2.1 Implements instruction responsive to students' individual identities.
+
+
+2.2 Implements instruction that incorporates students' linguistic and cultural backgrounds.
+
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+2.1 Annotated Bibliography (Seminars), Writing Sequences (329), Lit Circles - Leading a Discussion (356)
+
+2.2 Book Pusher (356), Lit Links (356), Writing Sequences (329)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+
+### Standard 3: Learning Environments {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+3.1. Creates inclusive learning environments.
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+3.1 Students analyze data  (Seminars), Annotated Bibliography (329), Writing Sequences (329)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+
+### Standard 4: Content Knowledge {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+4.1 Uses literary theories to interpret and critique a range of texts. 
+
+
+4.2 Uses the conventions of English language as they relate to various rhetorical situations. 
+
+
+4.3 Knows how to compose different texts. 
+
+
+4.4. Knows how to acquire and apply vocabulary knowledge. 
+
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+4.1 Paper about work of literature and its historical context (331-336), Lit Circles - Leading a Discussion (356), Goodreads (356)
+
+4.2 Literary Analysis paper (314), Syllabus (314), Syllabus (325)
+
+4.3 Literary Analysis paper (314), Syllabus (314), Writing example in sequence (329)
+
+4.4 One lesson in sequence (329), Annotated Bibliography (Seminars), Lit Circles - Leading a Discussion (356)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+
+
+### Standard 5: Application of Content {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+5.1 Designs instruction related to language conventions.
+
+
+5.2 Designs instruction that promotes social justice and critical engagement. 
+
+
+5.3. Designs instruction related to different texts, purposes, and complexities. 
+
+
+5.4. Designs instruction related to speaking and listening. 
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+5.1 Mini-lesson (329), Writing Sequences (329), Modeling from PowerPoint (329)
+
+5.2 Lit Circles - Leading a Discussion (356), Annotated Bibliography (Seminars), Lesson Outline (329)
+
+5.3 Unit Lesson Plan (430), Education Syllabus (ED461), Literacy I or II (Syllabus) (#???)
+
+5.4 Lit Links (356), Lit Circles - 3/1 - Leading a Discussion (356), Writing Sequences (329)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+
+
+### Standard 6: Assesment {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+6.1 Designs a range of authentic assessments of reading and literature. 
+
+
+6.2 Selects appropriate reading assessments in response to student interests.
+
+
+6.3 Selects a range of assessments for students that promote their development as writers. 
+
+
+6.4 Differentiates instruction based on multiple kinds of assessments. 
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+6.1 PowerPoint on lexile.com (356), Practicum (329 or 430), Lit Circles - Lexile (356) 
+
+6.2 Seminars (329 or 430), Syllabus (461), Assignment (461)
+
+6.3 Writing Sequences (329), Evaluating Sample Papers (329), Syllabus (329)
+
+6.4 Evaluation Sample Papers (329), Accommodation in Sequence Lesson (329), PowerPoint on how to do (329)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+
+
+### Standard 7: Planning for Instruction {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+7.1 Plans instruction which reflects curriculum integration.
+
+
+7.2 Plans learning experiences in reading. 
+
+
+7.3 Plans experiences that utilize different approaches and technologies. 
+
+
+7.4. Plans learning experiences utilizing a range of different texts. 
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+7.1 Writing Sequences (329), Unit Lesson Plan (430), Practicum (329 or 430)
+
+7.2 Unit Lesson Plan  (430), Syllabus (ED461), Lit I or Lit II Syllabus (???)
+
+7.3 Writing Sequences (329), Lesson Unit Plan (430),  Lit Links (356)
+
+7.4 Assignment (461), Lesson Unit Plan (430), Lit Links Assignment (356)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+
+
+### Standard 8: Instructional Strategies {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+8.1 Plans instruction based on ELA curricular requirements and standards. 
+
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+8.1 Writing Sequences (329), Syllabus (329), PowerPoint on any topic addressed in the standards (329)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+
+
+### Standard 9: Professional Learning and Ethical Practice {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+
+9.1 Models literate and ethical practices in ELA teaching. 
+
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+9.1 Observing from practicum (329/430), PowerPoint on code of ethics (Seminars), Observation on ethical practices form (329/430), Course Attendance (329)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+
+----
+
+
+
+
+### Standard 10: Leadership and Collaboration {.tabset .tabset-pills}
+
+#### Performance no.
+<div style="padding-left:125px;">
+<!-- Add the performance numbers in the area below: -->
+10.1 Engage in and reflect on different experiences related to ELA. 
+
+
+
+
+
+
+
+
+
+<!--- End performance numbers before here.  ------------------>
+</div>
+
+#### Evidence
+<div style="padding-left:125px;">
+<!-- Add your customizations in the area below: -->
+
+10.1 PLC Observation (329/430), Reflection on the observation above (329/430), Practicum discussion (329/430)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- End of Add content area.  ------------------>
+</div>
+
+##
+<div style="clear:both;"></div>
+

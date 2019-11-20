@@ -1,0 +1,85 @@
+---
+title: "Standard 3: Learning Environments"
+output: 
+  html_document: 
+    theme: cerulean
+    css: styles.css
+---
+
+<script type="text/javascript">
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script>
+
+----
+
+The teacher works with others to create environments that support individual and collaborative learning, and that encourage positive social interaction, active engagement in learning, and self-motivation. 
+
+----
+
+### {.tabset .tabset-pills .tabset-fade}
+
+
+#### Performance 3.1
+
+<div style="padding-left:1px;">
+
+Candidates create inclusive learning environments.
+
+##### Evidence 1: Observation Analysis of Data (329/430)
+
+<div style="padding-left:40px;">
+
+**Prompt**
+
+Fifteen observations in an ELA classroom setting with a mentor teacher. You will choose one topic to observe at each of your first five observations; you will choose a different topic at each new observation. As you type each observation, you will need to do the following: write ½ a page on what you learned in your Lab PLC group concerning the topic, then write the rest of your paper on your observations in connection to that topic. 
+
+Topics:
+
+1.	Social justice—what is it? How does it connect to the ELA classroom? (What is the teacher doing to promote social justice? What is effective? Why?)—Standard 5B
+2.	How do language and dialect affect literacy? (What are teachers doing to address this in the classroom?)—Standards 2A and 3A
+
+After completing the observation, look at your data. Now type, at the bottom of your observation (chart), your response to the following:
+
+1.	What is the data telling you? Are there any patterns you notice? (two paragraphs)
+2.	What have you learned from your observation and analysis? (two paragraphs)
+
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+##### Evidence 2: Annotated Bibliography (329)
+<div style="padding-left:40px;">
+**Prompt**
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+
+##### Evidence 3: Writing Sequences (329)
+<div style="padding-left:40px;">
+**Prompt**
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+
+</div>
+
+----
+
+<footer></footer>
