@@ -1,5 +1,5 @@
 ---
-title: "Standard 1: Learner Development"
+title: "Standard 4: Content Knowledge"
 output: 
   html_document: 
     theme: cerulean
@@ -15,27 +15,27 @@ output:
 
 ----
 
-The teacher understands how learners grow and develop, recognizing that patterns of learning and development vary individually within and across the cognitive, linguistic, social, emotional, and physical areas, and designs and implements developmentally appropriate and challenging learning experiences.
+The teacher understands the central concepts, tools of inquiry, and structures of the discipline(s) he or she teaches and creates learning experiences that make the discipline accessible and meaningful for learners to assure mastery of the content. 
 
 ----
 
 ### {.tabset .tabset-pills .tabset-fade}
 
 
-#### Performance 1.1
+#### Performance 4.1
 
 <div style="padding-left:1px;">
 
-Candidates demonstrate knowledge of developmental levels in reading, writing, listening, viewing, and speaking and plan for developmental stages and diverse ways of learning.
+Candidates use literary theories to interpret and critique a range of texts.
 
 
-##### Evidence 1: Writing Sequences (329)
+##### Evidence 1: Paper work of literature and its historical context (331-336)
 
 <div style="padding-left:40px;">
 
 **Prompt**
 
-This assignment is lesson planning to teach four genres of writing: fiction, personal narrative, argumentation, and research.  You will plan through five stages, which roughly correspond to pre-writing, writing, editing/evaluation. This will happen in five stages. A sample of this assignment will be provided.
+(Waiting for professors to e-mail the samples)
 
 **Excellent Performance (sample)**
 
@@ -44,77 +44,88 @@ This assignment is lesson planning to teach four genres of writing: fiction, per
 **Poor Performance (sample)**
 </div>
 
-##### Evidence 2: Book Pusher (356)
-<div style="padding-left:40px;">
-**Prompt**
-
-You must convince Sara or me that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:
-
-A) Tell Sara or me about the person you are targeting. Be specific so we have a good idea of who this individual is (2 minutes).
-B) You must then make your three book recommendations and explain why those are the best choices for the individual you just described (5-6 minutes).
-C) At the end, you will discuss some of your findings from your personal reflection (1-2 minutes). 
-
-
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
-</div>
-
-
-##### Evidence 3: (pending)
-<div style="padding-left:40px;">
-**Prompt**
-
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
-</div>
-
-
-</div>
-
-----
-
-
-#### Performance 1.2
-
-<div style="padding-left:1px;">
-Candidates demonstrate knowledge about how adolescents read and make meaning of a wide range of texts (e.g. literature, poetry, informational text, and digital media).
- 
- 
-
-##### Evidence 1: Annotated Bibliography (lab)
+##### Evidence 2: Lit Circles - Leading a Discussion (356)
 
 <div style="padding-left:40px;">
 
 **Prompt**
 
+Actively participate in novel discussions by completing your assigned group role and speaking in your group discussions. Discussion will take place in class.
 
-**Excellent Performance (sample)**
+1. *Role: Historical Lens*: For this role, you will need to do some historical research to help yourself and your group better understand the context of an item, character, or event within the text. In column one, choose one item, character, or event that may have historical significance to the text itself. For column two, do some research on that chosen character, event, etc. Summarize your research. Make sure to cite your source. Explain how your research connects to the item in the book and helps you better understand the context of the story. 
 
-**Average Performance (sample)**
+**Excellent Performance**: sample [here](https://drive.google.com/file/d/1oMGclcD58AC7Peif_A805_oHiXYLvjrH/view?usp=sharing) (from ENG 356 Fall '19 ~ Sister Kunz/Glenn).
 
-**Poor Performance (sample)**
-</div>
+**Average Performance**: sample [here](https://drive.google.com/file/d/1IlsU508OQFjHQ7hSbB1yQ5VjdMDv1DMh/view?usp=sharing) (from ENG 356 Fall '19 ~ Sister Kunz/Glenn).
 
-##### Evidence 2: Lesson Outline (329)
-<div style="padding-left:40px;">
-**Prompt**
+**Poor Performance**: sample [here](https://drive.google.com/file/d/1-p81jtrzU4e3fO87kV4EV8RxjAQ31Ftf/view?usp=sharing) (from ENG 356 Fall '19 ~ Sister Kunz/Glenn). 
 
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
 </div>
 
 
 ##### Evidence 3: Goodreads (356)
 <div style="padding-left:40px;">
+
+**Prompt**
+
+This semester you will read 20 YA books.Many of these are not difficult to read, but it is essential that you keep up with both the reading and the assignments.  In order to stay on top of things, plan to read two books per week. That pace should keep you from grief at the end of the semester. (10 points per book, 200 total/20 points for the Reading Record) 
+
+20 books:
+
+A)	8 class assigned books  (the 9th  and 10th will be books of your choice in connection to our multicultural book studies)
+B)	1 book from Honor List (or other award winner)—please mark on reading record
+C)	8 books your choice—various genres, time periods—please mark on reading record
+D)	1 censored book (in addition to I am the Cheese)—please mark on reading record
+
+NOTE: Please do not read books in which you have already read or seen the movie (Harry Potter series, Hunger Games series, The Giver quartet, Maze Runner series, Twilight Series, etc.). Where you are already familiar with these books/movies, do yourself a favor and branch out—read something new. This will benefit you in the end. 
+
+
+**Excellent Performance**: sample [here](https://www.goodreads.com/review/list/104452498?shelf=books-1-10) (from ENG 356 Fall '19 ~ Sister Glenn).
+
+**Average Performance**: sample [here](https://www.goodreads.com/review/list/102892194?shelf=ya-lit-1-10) (from ENG 356 Fall '19 ~ Sister Glenn).
+
+**Poor Performance**: sample [here](https://www.goodreads.com/review/list/102892036?shelf=books-1-10) (from ENG 356 Fall '19 ~ Sister Glenn).
+
+</div>
+
+
+</div>
+
+----
+
+
+#### Performance 4.2
+<div style="padding-left:1px;">
+
+Candidates use the conventions of English language as they relate to various rethorical situations.
+ 
+##### Evidence 1: Literary Analysis Paper (314)
+
+<div style="padding-left:40px;">
+
+**Prompt**
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+##### Evidence 2: Syllabus (314)
+<div style="padding-left:40px;">
+**Prompt**
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+
+##### Evidence 3: Syllabus (325)
+<div style="padding-left:40px;">
 **Prompt**
 
 **Excellent Performance (sample)**
@@ -131,15 +142,13 @@ Candidates demonstrate knowledge about how adolescents read and make meaning of 
 ----
 
 
-
-#### Performance 1.3
+#### Performance 4.3
 
 <div style="padding-left:1px;">
-Candidates demonstrate knowledge about how adolescents compose texts in a wide range of genres and formats including digital media.
+Candidates know how to compose texts.
  
  
-
-##### Evidence 1: Technology Lesson Plan (329)
+##### Evidence 1: Literary Analysis Paper (314)
 
 <div style="padding-left:40px;">
 
@@ -153,7 +162,7 @@ Candidates demonstrate knowledge about how adolescents compose texts in a wide r
 **Poor Performance (sample)**
 </div>
 
-##### Evidence 2: Annotated Bibliography (329)
+##### Evidence 2: Syllabus (314)
 <div style="padding-left:40px;">
 **Prompt**
 
@@ -165,7 +174,54 @@ Candidates demonstrate knowledge about how adolescents compose texts in a wide r
 </div>
 
 
-##### Evidence 3: Writing Sequences (329)
+##### Evidence 3: Writing Example in Sequence (329)
+<div style="padding-left:40px;">
+**Prompt**
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+
+</div>
+
+----
+
+
+#### Performance 4.4
+<div style="padding-left:1px;">
+
+Candidates know how to acquire and apply vocabulary knowledge.
+ 
+##### Evidence 1: One Lesson in Sequence (329)
+
+<div style="padding-left:40px;">
+
+**Prompt**
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+##### Evidence 2: Annotated Bibliography (Seminars)
+<div style="padding-left:40px;">
+**Prompt**
+
+**Excellent Performance (sample)**
+
+**Average Performance (sample)**
+
+**Poor Performance (sample)**
+</div>
+
+
+##### Evidence 3: Lit Circles - Leading a Discussion (356)
 <div style="padding-left:40px;">
 **Prompt**
 
