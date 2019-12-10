@@ -1,5 +1,5 @@
 ---
-title: "Standard 1: Learner Development"
+title: "Standard 8: Instructional Strategies"
 output: 
   html_document: 
     theme: cerulean
@@ -15,19 +15,18 @@ output:
 
 ----
 
-The teacher understands how learners grow and develop, recognizing that patterns of learning and development vary individually within and across the cognitive, linguistic, social, emotional, and physical areas, and designs and implements developmentally appropriate and challenging learning experiences.
-
+The teacher understands and uses a variety of instructional strategies to encourage learners to develop deep understanding of content areas and their connections, and to build skills to apply knowledge in meaningful ways. 
+ 
 ----
 
 ### {.tabset .tabset-pills .tabset-fade}
 
 
-#### Performance 1.1
+#### Performance 8.1
 
 <div style="padding-left:1px;">
 
-Candidates demonstrate knowledge of developmental levels in reading, writing, listening, viewing, and speaking and plan for developmental stages and diverse ways of learning.
-
+Candidates plan instruction based on ELA curricular requirements and standards.
 
 ##### Evidence 1: Writing Sequences (329)
 
@@ -44,26 +43,7 @@ This assignment is lesson planning to teach four genres of writing: fiction, per
 **Poor Performance (sample)**
 </div>
 
-##### Evidence 2: Book Pusher (356)
-<div style="padding-left:40px;">
-**Prompt**
-
-You must convince Sara or me that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:
-
-A) Tell Sara or me about the person you are targeting. Be specific so we have a good idea of who this individual is (2 minutes).
-B) You must then make your three book recommendations and explain why those are the best choices for the individual you just described (5-6 minutes).
-C) At the end, you will discuss some of your findings from your personal reflection (1-2 minutes). 
-
-
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
-</div>
-
-
-##### Evidence 3: (pending)
+##### Evidence 2: Syllabus (329)
 <div style="padding-left:40px;">
 **Prompt**
 
@@ -75,97 +55,7 @@ C) At the end, you will discuss some of your findings from your personal reflect
 </div>
 
 
-</div>
-
-----
-
-
-#### Performance 1.2
-
-<div style="padding-left:1px;">
-Candidates demonstrate knowledge about how adolescents read and make meaning of a wide range of texts (e.g. literature, poetry, informational text, and digital media).
- 
- 
-
-##### Evidence 1: Annotated Bibliography (lab)
-
-<div style="padding-left:40px;">
-
-**Prompt**
-
-
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
-</div>
-
-##### Evidence 2: Lesson Outline (329)
-<div style="padding-left:40px;">
-**Prompt**
-
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
-</div>
-
-
-##### Evidence 3: Goodreads (356)
-<div style="padding-left:40px;">
-**Prompt**
-
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
-</div>
-
-
-</div>
-
-
-----
-
-
-
-#### Performance 1.3
-
-<div style="padding-left:1px;">
-Candidates demonstrate knowledge about how adolescents compose texts in a wide range of genres and formats including digital media.
- 
- 
-
-##### Evidence 1: Technology Lesson Plan (329)
-
-<div style="padding-left:40px;">
-
-**Prompt**
-
-
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
-</div>
-
-##### Evidence 2: Annotated Bibliography (329)
-<div style="padding-left:40px;">
-**Prompt**
-
-**Excellent Performance (sample)**
-
-**Average Performance (sample)**
-
-**Poor Performance (sample)**
-</div>
-
-
-##### Evidence 3: Writing Sequences (329)
+##### Evidence 3: Powerpoint on any topic addressed in the standards (329)
 <div style="padding-left:40px;">
 **Prompt**
 
