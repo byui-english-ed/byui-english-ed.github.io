@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,6 +84,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -245,6 +245,18 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -337,9 +349,10 @@ $(document).ready(function () {
 <h5 id="evidence-1-mini-lesson-329">Evidence 1: Mini-lesson (329)</h5>
 <div style="padding-left:40px;">
 <p><strong>Prompt</strong></p>
-<p><strong>Excellent Performance (sample)</strong></p>
-<p><strong>Average Performance (sample)</strong></p>
-<p><strong>Poor Performance (sample)</strong></p>
+<p>Each of you will teach a 15-minute mini-lesson in our English 329 class. You will sign up for a Common Core Standard and then design a lesson that teaches some aspect of that standard. See the attached documents for guidance. The guidelines for the mini-lesson can be found <a href="https://drive.google.com/file/d/1oq0f4gaOmDNQwarbh4AXD3NKmx4WzJby/view?usp=sharing">here</a>.</p>
+<p><strong>Excellent Performance</strong>: sample <a href="https://drive.google.com/file/d/1nrSgFtXCjVs7haUtYb_DXttPjFqqO0BU/view?usp=sharing">here</a> (from ENG 329 Fall ’19 Sister Kunz).</p>
+<p><strong>Average Performance</strong>: sample <a href="https://drive.google.com/file/d/1VzB-jgbyeiJr-O4G3KV18NtSBtD9iCTD/view?usp=sharing">here</a> (from ENG 329 Fall ’19 Sister Kunz).</p>
+<p><strong>Poor Performance</strong>: sample <a href="https://drive.google.com/file/d/1qP7hfTCwKueAgB4hJPMVQHjLI7dY_1Ko/view?usp=sharing">here</a> (from ENG 329 Fall ’19 Sister Kunz).</p>
 </div>
 <h5 id="evidence-2-writing-sequences-329">Evidence 2: Writing Sequences (329)</h5>
 <div style="padding-left:40px;">
@@ -463,23 +476,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
