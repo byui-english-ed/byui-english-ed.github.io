@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,6 +84,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -245,6 +245,18 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -377,7 +389,7 @@ $(document).ready(function () {
 <h5 id="evidence-1-book-pusher-356">Evidence 1: Book Pusher (356)</h5>
 <div style="padding-left:40px;">
 <p><strong>Prompt</strong></p>
-<p>You must your professor that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:</p>
+<p>You must show your professor that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:</p>
 <ol style="list-style-type: upper-alpha">
 <li>Tell Sara or me about the person you are targeting. Be specific so we have a good idea of who this individual is (2 minutes).</li>
 <li>You must then make your three book recommendations and explain why those are the best choices for the individual you just described (5-6 minutes).</li>
@@ -432,23 +444,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -100,7 +100,7 @@ Candidates design and/or implement instruction that incorporates students’ lin
 <div style="padding-left:40px;">
 **Prompt**
 
-You must your professor that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:
+You must show your professor that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:
 
 A) Tell Sara or me about the person you are targeting. Be specific so we have a good idea of who this individual is (2 minutes).
 B) You must then make your three book recommendations and explain why those are the best choices for the individual you just described (5-6 minutes).
