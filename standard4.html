@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,6 +84,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -245,6 +245,18 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -334,13 +346,13 @@ $(document).ready(function () {
 <h4>Performance 4.1</h4>
 <div style="padding-left:1px;">
 <p>Candidates use literary theories to interpret and critique a range of texts.</p>
-<h5 id="evidence-1-paper-work-of-literature-and-its-historical-context-331-336">Evidence 1: Paper work of literature and its historical context (331-336)</h5>
+<h5 id="evidence-1-paper-work-of-literature-and-its-historical-context-eng-331-336">Evidence 1: Paper work of literature and its historical context (ENG 331-336)</h5>
 <div style="padding-left:40px;">
-<p><strong>Prompt</strong></p>
-<p>(Waiting for professors to e-mail the samples)</p>
-<p><strong>Excellent Performance (sample)</strong></p>
-<p><strong>Average Performance (sample)</strong></p>
-<p><strong>Poor Performance (sample)</strong></p>
+<p><strong>Summary</strong></p>
+<p>Students are required to take a series of literature courses (ENG 331-336) where they analyze pieces of literature and their historical texts. Here are different documents which evidence some of the work they do:</p>
+<p><strong>Syllabus (ENG 336)</strong>: A copy of the syllabus can be found <a href="https://drive.google.com/file/d/18wNsIreU6Akk0Wu2y35TRIKh_uV70f-e/view?usp=sharing">here</a>.</p>
+<p><strong>Midterm (ENG 336)</strong>: A copy of the midterm can be found <a href="https://drive.google.com/file/d/15mA-JMtxN_zZXZzlgYW9Zw2Pbh6PkPaf/view?usp=sharing">here</a>.</p>
+<p><strong>Quiz (ENG 336)</strong>: A copy of a quiz can be found <a href="https://drive.google.com/file/d/1a4ZuxXL5h8JQlYXfl9_a5GKkS9xpCpgN/view?usp=sharing">here</a>.</p>
 </div>
 <h5 id="evidence-2-lit-circles---leading-a-discussion-356">Evidence 2: Lit Circles - Leading a Discussion (356)</h5>
 <div style="padding-left:40px;">
@@ -426,12 +438,17 @@ $(document).ready(function () {
 <h4>Performance 4.4</h4>
 <div style="padding-left:1px;">
 <p>Candidates know how to acquire and apply vocabulary knowledge.</p>
-<h5 id="evidence-1-one-lesson-in-sequence-329">Evidence 1: One Lesson in Sequence (329)</h5>
+<h5 id="evidence-1-lexile-level-text-set-assignment-329">Evidence 1: Lexile Level Text Set Assignment (329)</h5>
 <div style="padding-left:40px;">
 <p><strong>Prompt</strong></p>
-<p><strong>Excellent Performance (sample)</strong></p>
-<p><strong>Average Performance (sample)</strong></p>
-<p><strong>Poor Performance (sample)</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>As you complete Goodreads, look up and record the Lexile level of each book.</p></li>
+<li><p>As you complete the 25 books, imagine recommending a series of five books to a specific student. Determine the grade level and gender of the imagined student you want to write your text set for. Then, choose five books that increase in Lexile level and which are connected thematically in a way that would make sense reading them in the order you recommend.</p></li>
+<li><p>List the five books and their Lexile level. For each book, give a rationale for why you would recommend that book for that student.</p></li>
+</ol>
+<p><strong>Excellent Performance (sample)</strong>: sample <a href="https://drive.google.com/file/d/1h_4s5-o0wKuGbNgOVXvW7oFCa43rbITt/view?usp=sharing">here</a> (from ENG 356 Fall ’19 ~ Sister Kunz).</p>
+<p><strong>Average Performance (sample)</strong>: sample <a href="https://drive.google.com/file/d/1-1RR5x9rfJpim41T_2xcJ0qgcLnIVdCo/view?usp=sharing">here</a> (from ENG 356 Fall ’19 ~ Sister Kunz).</p>
+<p><strong>Poor Performance (sample)</strong>: sample <a href="https://drive.google.com/file/d/1TwB5D8U-b0JoqBGsB9a4h3pN-mKeS4MA/view?usp=sharing">here</a> (from ENG 356 Fall ’19 ~ Sister Kunz).</p>
 </div>
 <h5 id="evidence-2-annotated-bibliography-seminars">Evidence 2: Annotated Bibliography (Seminars)</h5>
 <div style="padding-left:40px;">
@@ -481,23 +498,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
