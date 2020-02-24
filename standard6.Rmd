@@ -99,18 +99,23 @@ Parts of the LitLinks:
 
 Candidates select appropriate reading assessments in response to student interests. 
  
-##### Evidence 1: Seminars (329/430)
+##### Evidence 1: Annotated Bibliography (ENG 329)
 
 <div style="padding-left:40px;">
 
 **Prompt**
+You will sign up for one of the following topics:
 
+1. What are the best practices (strategies/activities) in assessments for ELA?—Standard 6B.
 
-**Excellent Performance (sample)**
+Find at least three scholarly journal articles on that topic and compile the information into an annotated bibliography. Use MLA formatting for citation purposes. OWL@Purdue.edu will help you organize your annotated bibliography. (45 points for bibliography, 15 points for discussion, 60 total)
 
-**Average Performance (sample)**
+**Excellent Performance (sample)**: sample [here](https://drive.google.com/file/d/1qkLZwgf84qcCYVqMPwVozjJJGz5zHIGF/view?usp=sharing) (from Sister Glenn Fall '19)
 
-**Poor Performance (sample)**
+**Average Performance (sample)**: sample [here](https://drive.google.com/file/d/1qim-OrzV42qRTGMX9visuDDj8KuJv54b/view?usp=sharing) (from Sister Kunz Fall '19)
+
+**Poor Performance (sample)**: sample [here](https://drive.google.com/file/d/1tkdds33KrWzK4uiEhNYOtVdK0zeCOFLH/view?usp=sharing) (from Sister Kunz Fall '19)
+
 </div>
 
 ##### Evidence 2: Syllabus (461)
@@ -121,7 +126,7 @@ The Syllabus for Reading in the Content Area (ED 461) can be found [here](https:
 </div>
 
 
-##### Evidence 3: Assignment (461)
+##### Evidence 3: to be determined
 <div style="padding-left:40px;">
 **Prompt**
 
@@ -220,16 +225,10 @@ This assignment is lesson planning to teach four genres of writing: fiction, per
 </div>
 
 
-##### Evidence 3: Powerpoint on how to do (329)
+##### Evidence 3: Effective Grading (ENG 329)
 <div style="padding-left:40px;">
 
-**Prompt**
-
-**Excellent Performance**: 
-
-**Average Performance**: 
-
-**Poor Performance**: 
+Students review principles of how to grade writing more effectively using this [handout](https://drive.google.com/file/d/1o4jYuUZ1v0T3Qdp_t9ZSPJVX7vZzPtYu/view?usp=sharing).
 
 </div>
 
