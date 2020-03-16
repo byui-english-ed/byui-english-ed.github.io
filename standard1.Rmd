@@ -8,12 +8,6 @@ output:
     
 ---
 
-<script type="text/javascript">
- function showhide(id) {
-    var e = document.getElementById(id);
-    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
- }
-</script>
 
 ----
 
@@ -31,32 +25,31 @@ The teacher understands how learners grow and develop, recognizing that patterns
 Candidates know developmental stages.
 
 
-##### Evidence 1: Writing Sequences (329)
+##### Evidence 1: Writing Sequences (ENG 329)
 
 <div style="padding-left:40px;">
-
-**Prompt**
 
 This assignment is lesson planning to teach four genres of writing: fiction, personal narrative, argumentation, and research.  You will plan through five stages, which roughly correspond to pre-writing, writing, editing/evaluation. This will happen in five stages. A sample of this assignment will be provided.
 
-**Excellent Performance**: sample [here](https://drive.google.com/file/d/14c-s3xbLpPA5GmTEN6by0G7BSe18HE3P/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+**Samples**: 
 
-**Average Performance**: sample [here](https://drive.google.com/file/d/17pDWqY7JhXYMGLn_3AsjOaAbq3gZvLbv/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+1. Excellent performance:  [Fall '19](https://drive.google.com/file/d/14c-s3xbLpPA5GmTEN6by0G7BSe18HE3P/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/1ZkdTqUm_k6N3Uq2QtqWo3mNrhPdECVP1/view?usp=sharing)
 
-**Poor Performance**: sample [here](https://drive.google.com/file/d/1dqjt2gg9v0hybme0MM1qyEYnPlZZ-8_T/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+2. Average performance: [Fall '19](https://drive.google.com/file/d/17pDWqY7JhXYMGLn_3AsjOaAbq3gZvLbv/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/13kLVUok2JNPxOQon43RJN_5W9mYZGq5b/view?usp=sharing)
+
+3.  Poor performance: [Fall '19](https://drive.google.com/file/d/1dqjt2gg9v0hybme0MM1qyEYnPlZZ-8_T/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/14Xf-T9mwMUYTRy00l-hR_wAE-KqGKMqo/view?usp=sharing)
 </div>
 
-##### Evidence 2: Book Pusher (356)
+##### Evidence 2: Book Pusher (ENG 356)
 <div style="padding-left:40px;">
-**Prompt**
 
-You must your professor that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:
+You must convince your professor that the books you chose will really work for those tough people in those three groups. You will come to Sister Glenn’s office (Rigby 304) or Sara’s office (Rigby 101) on your scheduled test day and time. You will come in, sit down, and roll the die. The number you roll, will indicate which group (1 and 4=young adult, 2 and 5=parent, and 3 and 6=future 356 class) and which three of the nine books you will discuss. After the roll of the die, you will have 10 minutes to talk. You must address these three things in your spiel:
 
 A) Tell Sara or me about the person you are targeting. Be specific so we have a good idea of who this individual is (2 minutes).
 B) You must then make your three book recommendations and explain why those are the best choices for the individual you just described (5-6 minutes).
 C) At the end, you will discuss some of your findings from your personal reflection (1-2 minutes). 
 
-**Performance (final scores average)**
+**Sample**:
 
 ```{r include=FALSE}
 library(tidyverse)
@@ -76,17 +69,15 @@ data <- book_pusher %>%
     )
   ) 
 
-barplot(table(data$Semester,data$Performance), beside = TRUE, col = c("skyblue", "lightyellow"), legend.text = TRUE, xlab = "Book Pusher Final Grades", ylab = "Number of Students")
+barplot(table(data$Semester,data$Performance), beside = TRUE, col = c("skyblue", "lightyellow"), legend.text = TRUE, xlab = "Grades", ylab = "Number of Students", main = "Book Pusher Final Grades")
 
 ```
 
 </div>
 
 
-##### Evidence 3: Lexile Score and User (356)
+##### Evidence 3: Lexile Level Text Set (ENG 356)
 <div style="padding-left:40px;">
-
-**Prompt**
 
 A) As you complete Goodreads, look up and record the Lexile level of each book. 
 
@@ -95,11 +86,13 @@ grade level and gender of the imagined student you want to write your text set f
 
 C) List the five books and their Lexile level. For each book, give a rationale for why you would recommend that book for that student. 
 
-**Excellent Performance**: sample [here](https://drive.google.com/file/d/1ro2sNhvP2hGqJBYoAH7wgWbUDz6r8q4j/view?usp=sharing) (from ENG 356 Fall '19 ~ Brother Poole).
+**Samples**: 
 
-**Average Performance**: sample [here](https://drive.google.com/file/d/1J4IbAS-aVdIqMVrnkw_IlEsQUeE-FU7J/view?usp=sharing) (from ENG 356 Fall '19 ~ Brother Poole).
+1. Excellent performance: [Fall '19](https://drive.google.com/file/d/1ro2sNhvP2hGqJBYoAH7wgWbUDz6r8q4j/view?usp=sharing) / [Winter '20]().
 
-**Poor Performance**: sample [here](https://drive.google.com/file/d/1vTpZF6CphuLMciTpPNlPSlcR4G7hSHag/view?usp=sharing) (from ENG 356 Fall '19 ~ Brother Poole).
+2. Average performance: [Fall '19](https://drive.google.com/file/d/1J4IbAS-aVdIqMVrnkw_IlEsQUeE-FU7J/view?usp=sharing) / [Winter '20]().
+
+3. Poor Performance: [Fall '19](https://drive.google.com/file/d/1vTpZF6CphuLMciTpPNlPSlcR4G7hSHag/view?usp=sharing) / [Winter '20](). 
 
 </div>
 
@@ -114,31 +107,29 @@ C) List the five books and their Lexile level. For each book, give a rationale f
 <div style="padding-left:1px;">
 Candidates know how adolescents read.
  
- 
-
-##### Evidence 1: Annotated Bibliography (ENG 329)
+##### Evidence 1: Annotated Bibliography Lab (ENG 329)
 
 <div style="padding-left:40px;">
-
-**Prompt**
 
 You will sign up for one of the following topics:
 
 *	What are evidence (data and/or numbers) based  literacy strategies for teens?—Standard 1B
 
-Find at least three scholarly journal articles on that topic and compile the information into an annotated bibliography. Use MLA formatting for citation purposes. OWL@Purdue.edu will help you organize your annotated bibliography. 
+Find at least three scholarly journal articles on that topic and compile the information into an annotated bibliography. Use MLA formatting for citation purposes. owl@purdue.edu will help you organize your annotated bibliography. 
 
+**Samples**: 
 
-**Excellent Performance**: sample [here](https://drive.google.com/file/d/1_8-M6l2VX4e1Y7nyk6_Mf_me935PtPOa/view?usp=sharing) (from Kunz/Glenn Fall '19).
+1.Excellent performance: [Fall '19](https://drive.google.com/file/d/1_8-M6l2VX4e1Y7nyk6_Mf_me935PtPOa/view?usp=sharing)/ [Winter '20](https://drive.google.com/file/d/1wtaF5i-Ncrg6gs-RU8-IltoPzLEdmnP0/view?usp=sharing).
 
-**Average Performance**: sample [here](https://drive.google.com/file/d/1rQwp3GVtEOg8p6g6Vs-CpZjp3FONWzb1/view?usp=sharing) (from Kunz/Glenn Fall '19).
+2.Average performance: [Fall '19](https://drive.google.com/file/d/1rQwp3GVtEOg8p6g6Vs-CpZjp3FONWzb1/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/11FDFSgb-Bn-RRZLLdVSH9ZYZkxNgQE-7/view?usp=sharing).
 
-**Poor Performance**: sample [here](https://drive.google.com/file/d/1VyD9up4sWjAgf-sieXEGj3uQlnxKbLps/view?usp=sharing) (from Kunz/Glenn '19).
+3.Poor Performance: [Fall '19](https://drive.google.com/file/d/1VyD9up4sWjAgf-sieXEGj3uQlnxKbLps/view?usp=sharing)/ [Winter '20](https://drive.google.com/file/d/14-StQ-qge5k4RzIX1hPwPJ2ubBK2OM1Q/view?usp=sharing). 
+
 </div>
 
-##### Evidence 2: Lit Links (356)
+##### Evidence 2: Literature Circles ~ Lit Links (ENG 356)
 <div style="padding-left:40px;">
-**Prompt**
+
 
 Publishers, editors, writers, and teachers work together when it comes to using Young Adult Literature in a classroom. Any of these groups of  people post teaching ideas online.  For this literature circle role, you will create a document that gives links and advice on teaching a Young Adult novel. 
 
@@ -148,18 +139,19 @@ Parts of the LitLinks:
 2.	Links to sites about two different themes in the book. Please provide a description of the links. If possible, provide modern day connections. –10 points
 3.	Links to at least two teaching ideas. Please provide a description of the links. Choose activities that would serve a diverse group. –12 points
 
+**Samples**:
 
-**Excellent Performance**: sample [here](https://drive.google.com/file/d/1vsU6LV1xoRqCD-rE-eS0lQIT02w67gX6/view?usp=sharing) (from ENG 356 Spring '19)
+1. Excellent performance: [Fall '19](https://drive.google.com/file/d/1vsU6LV1xoRqCD-rE-eS0lQIT02w67gX6/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/1Yawq5PqjscSCQaU16jXqCLvYZaohNzcK/view?usp=sharing)
 
-**Average Performance**: sample [here](https://drive.google.com/file/d/1pZbtcAj85PTEt-XA4InYzVupzMEQDItn/view?usp=sharing) (from ENG 356 Spring '19)
+2. Average performance: [Fall '19](https://drive.google.com/file/d/1pZbtcAj85PTEt-XA4InYzVupzMEQDItn/view?usp=sharing)  / [Winter '20](https://drive.google.com/file/d/1FMncORFpmEH6pDzxbUMxcxCjI3uZkyUJ/view?usp=sharing)
 
-**Poor Performance:** sample [here](https://drive.google.com/file/d/1eYqYIrtLYLpfxvu_qJcchiRELGZvIdY3/view?usp=sharing) (from ENG 356 Spring '19)
+3. Poor performance: [Fall '19](https://drive.google.com/file/d/1eYqYIrtLYLpfxvu_qJcchiRELGZvIdY3/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/1SCmqaSPVEvI8dUBSa0KIJMYgYRglssKV/view?usp=sharing)
 </div>
 
 
 ##### Evidence 3: Goodreads (356)
 <div style="padding-left:40px;">
-**Prompt**
+
 
 This semester you will read 20 YA books.Many of these are not difficult to read, but it is essential that you keep up with both the reading and the assignments.  In order to stay on top of things, plan to read two books per week. That pace should keep you from grief at the end of the semester. (10 points per book, 200 total/20 points for the Reading Record) 
 
@@ -172,12 +164,13 @@ D)	1 censored book (in addition to I am the Cheese)—please mark on reading rec
 
 NOTE: Please do not read books in which you have already read or seen the movie (Harry Potter series, Hunger Games series, The Giver quartet, Maze Runner series, Twilight Series, etc.). Where you are already familiar with these books/movies, do yourself a favor and branch out—read something new. This will benefit you in the end. 
 
+**Samples**:
 
-**Excellent Performance**: sample [here](https://www.goodreads.com/review/list/96688926?shelf=books-1-10) (from ENG 356 Spring '19).
+1. Excellent Performance: [Fall '19](https://www.goodreads.com/review/list/96688926?shelf=books-1-10) / [Winter '20](https://www.goodreads.com/review/list/108466313?shelf=books-1-10)
 
-**Average Performance**: sample [here](https://www.goodreads.com/review/list/96494563?shelf=1-10-reads) (from ENG 356 Spring '19).
+2. Average Performance: [Fall '19](https://www.goodreads.com/review/list/96494563?shelf=1-10-reads) / [Winter '20](https://www.goodreads.com/review/list/108466440?shelf=books-1-10)
 
-**Poor Performance**: sample [here](https://www.goodreads.com/review/list/5294647?shelf=books-1-10) (from ENG 356 Spring '19).
+3. Poor Performance: [Fall '19](https://www.goodreads.com/review/list/5294647?shelf=books-1-10) / [Winter '20](https://www.goodreads.com/review/list/108466310?shelf=books-1-10)
 </div>
 
 
@@ -199,7 +192,6 @@ Candidates know how adolescents compose texts.
 
 <div style="padding-left:40px;">
 
-**Prompt**
 
 Each student will participate in developing a group writing unit.  Each student will be responsible for a personal section of the unit, as well as the overall unit.  Each group will develop a unit for a specific type of writing, complete with goals, pre-writing and writing activities, *a technology piece*, evaluations/assessments, and accommodations for students.  The group will establish goals for the writing unit, a reflective piece, and a rubric for grading the writing.  The individual members of the group will each find or develop pre-writing activities, writing activities, evaluations/assessments and accommodations for students.  Each student will receive both an individual and a group grade. 
 
@@ -210,9 +202,9 @@ Each student will participate in developing a group writing unit.  Each student 
 **Poor Performance**: sample [here](https://drive.google.com/file/d/180NVk5dWLWIbTVTldcIWgzWGYWlMF082/view?usp=sharing) (from ENG 429 Winter '19).
 </div>
 
-##### Evidence 2: Annotated Bibliography (329)
+##### Evidence 2: Annotated Bibliography (ENG 329)
 <div style="padding-left:40px;">
-**Prompt**
+
 
 You will sign up for one of the following topics:
 
@@ -223,26 +215,29 @@ You will sign up for one of the following topics:
 
 Find at least three scholarly journal articles on that topic and compile the information into an annotated bibliography. Use MLA formatting for citation purposes. OWL@Purdue.edu will help you organize your annotated bibliography.   
 
-**Excellent Performance**: sample [here](https://drive.google.com/file/d/1_8-M6l2VX4e1Y7nyk6_Mf_me935PtPOa/view?usp=sharing) (from Kunz/Glenn Fall '19).
+**Samples**:
 
-**Average Performance**: sample [here](https://drive.google.com/file/d/1rQwp3GVtEOg8p6g6Vs-CpZjp3FONWzb1/view?usp=sharing) (from Kunz/Glenn Fall '19).
+1. Excellent Performance: [Fall '19](https://drive.google.com/file/d/1_8-M6l2VX4e1Y7nyk6_Mf_me935PtPOa/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/1Iyt9z9wStHvrWzypJQYhpb8ENbIYGef5/view?usp=sharing) 
 
-**Poor Performance**: sample [here](https://drive.google.com/file/d/1G84mOFKFVuzOW7pgDjmMW_bv8RtDpoEq/view?usp=sharing) (from ENG 430 Spring '19).
+2. Average Performance: [Fall '19](https://drive.google.com/file/d/1rQwp3GVtEOg8p6g6Vs-CpZjp3FONWzb1/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/1KkQkrk1Sph_BRmLzRc56Le3uzRmxqlPk/view?usp=sharing) 
+
+3. Poor Performance: [Fall '19](https://drive.google.com/file/d/1G84mOFKFVuzOW7pgDjmMW_bv8RtDpoEq/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/1FAKXipnjGQF_xJ59WIHFuz496T9-ecBR/view?usp=sharing) 
 
 </div>
 
 
 ##### Evidence 3: Writing Sequences (329)
 <div style="padding-left:40px;">
-**Prompt**
 
 This assignment is lesson planning to teach four genres of writing: fiction, personal narrative, argumentation, and research.  You will plan through five stages, which roughly correspond to pre-writing, writing, editing/evaluation. This will happen in five stages. A sample of this assignment will be provided.
 
-**Excellent Performance**: sample [here](https://drive.google.com/file/d/14c-s3xbLpPA5GmTEN6by0G7BSe18HE3P/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+**Samples**: 
 
-**Average Performance**: sample [here](https://drive.google.com/file/d/17pDWqY7JhXYMGLn_3AsjOaAbq3gZvLbv/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+1. Excellent performance:  [Fall '19](https://drive.google.com/file/d/14c-s3xbLpPA5GmTEN6by0G7BSe18HE3P/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/1ZkdTqUm_k6N3Uq2QtqWo3mNrhPdECVP1/view?usp=sharing)
 
-**Poor Performance**: sample [here](https://drive.google.com/file/d/1dqjt2gg9v0hybme0MM1qyEYnPlZZ-8_T/view?usp=sharing) (from ENG 329 Fall '19 ~ Sister Glenn).
+2. Average performance: [Fall '19](https://drive.google.com/file/d/17pDWqY7JhXYMGLn_3AsjOaAbq3gZvLbv/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/13kLVUok2JNPxOQon43RJN_5W9mYZGq5b/view?usp=sharing)
+
+3.  Poor performance: [Fall '19](https://drive.google.com/file/d/1dqjt2gg9v0hybme0MM1qyEYnPlZZ-8_T/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/14Xf-T9mwMUYTRy00l-hR_wAE-KqGKMqo/view?usp=sharing)
 </div>
 
 
