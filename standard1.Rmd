@@ -49,29 +49,12 @@ A) Tell Sara or me about the person you are targeting. Be specific so we have a 
 B) You must then make your three book recommendations and explain why those are the best choices for the individual you just described (5-6 minutes).
 C) At the end, you will discuss some of your findings from your personal reflection (1-2 minutes). 
 
-**Sample**:
+**Samples**:
 
-```{r include=FALSE}
-library(tidyverse)
-library(ggplot2)
-```
+A graphical summary of the final grades can be found here: [Fall '19](https://drive.google.com/file/d/1ROFENwvrK2yEhxV6PBFkU7Xk6S-mq-aF/view?usp=sharing) / [Winter '20](https://drive.google.com/file/d/1zcL25hB-eOFX2v1jauat6HBhcrV8qs3W/view?usp=sharing)
 
-```{r echo=FALSE}
 
-book_pusher <- read.csv("book_pusher_grades.csv")
 
-data <- book_pusher %>% 
-  mutate(
-    Performance = case_when(
-      Grades %in% c(90:100) ~ "Excellent",
-      Grades %in% c(80:89) ~ "Average",
-      Grades %in% c(0:88) ~ "Poor"
-    )
-  ) 
-
-barplot(table(data$Semester,data$Performance), beside = TRUE, col = c("skyblue", "lightyellow"), legend.text = TRUE, xlab = "Grades", ylab = "Number of Students", main = "Book Pusher Final Grades")
-
-```
 
 </div>
 
