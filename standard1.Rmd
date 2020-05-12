@@ -132,7 +132,7 @@ Parts of the LitLinks:
 </div>
 
 
-##### Evidence 3: Goodreads (356)
+##### Evidence 3: Goodreads (ENG 356)
 <div style="padding-left:40px;">
 
 
@@ -171,7 +171,7 @@ Candidates know how adolescents compose texts.
  
  
 
-##### Evidence 1: Writing Unit (329)
+##### Evidence 1: Writing Unit (ENG 329)
 
 <div style="padding-left:40px;">
 
@@ -213,7 +213,7 @@ Find at least three scholarly journal articles on that topic and compile the inf
 </div>
 
 
-##### Evidence 3: Writing Sequences (329)
+##### Evidence 3: Writing Sequences (ENG 329)
 <div style="padding-left:40px;">
 
 This assignment is lesson planning to teach four genres of writing: fiction, personal narrative, argumentation, and research.  You will plan through five stages, which roughly correspond to pre-writing, writing, editing/evaluation. This will happen in five stages. A sample of this assignment will be provided.

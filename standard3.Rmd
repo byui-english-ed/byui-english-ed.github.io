@@ -81,7 +81,7 @@ Find at least three scholarly journal articles on that topic and compile the inf
 </div>
 
 
-##### Evidence 3: Writing Sequences (329)
+##### Evidence 3: Writing Sequences (ENG 329)
 <div style="padding-left:40px;">
 **Prompt**
 
