@@ -1,6 +1,6 @@
 name: "standards"
 navbar:
-  title: "ELA Standards"
+  title: ""
   left:
     - text: "Standard 1"
       href: standard1.html
@@ -22,6 +22,8 @@ navbar:
       href: standard9.html
     - text: "Standard 10"
       href: standard10.html
+    - text: "Other"
+      href: other_section.html
   
 output_dir: '.'
 
