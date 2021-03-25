@@ -6,13 +6,24 @@ output:
     css: styles.css
 ---
 
-
-
-[Standards 2021](https://drive.google.com/file/d/1tEFae7t4OtkxTz9SEtW4wolegmJhruEa/view?usp=sharing)
-
-[Recruitment Plan 2020](https://drive.google.com/file/d/1clqQs-zahLoKpXLThl1ADMtwI6q4w5X3/view?usp=sharing)
+<script type="text/javascript">
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script>
 
 ----
+
+This is a collection of other supportive material for accreditation or teaching purposes.
+
+----
+
+### {.tabset .tabset-pills .tabset-fade}
+
+#### Recruiment Efforts
+
+<div style="padding-left:1px;">
 
 Recruitment efforts for the English Education Program include:
 
@@ -23,14 +34,54 @@ Recruitment efforts for the English Education Program include:
 
 The English Education Program is working on adding a recruitment meeting with all English majors to take place through the English Academic Society.  This would take place after COVID restrictions on meetings has been lifted.  This meeting will highlight the appeal of choosing education as an emphasis for those that are unsure how to focus their English major and also for those that may be considering graduate school after graduation and could benefit from an education background.
 
+</div>
+
 ----
 
-["Stamped" PowerPoint](https://drive.google.com/file/d/1VWJKPLI5sR-QfXU_tTVeSG66ioqJgn2R/view?usp=sharing)
 
-["Cases of Racism Around the World" PowerPoint](https://docs.google.com/presentation/d/1j7i9jXmMANWImK3EKro4A8CyfxN0OmamLqbdipasY8c/edit?usp=sharing)
 
-["Definition of Racism Timeline"](https://docs.google.com/document/d/1F-AVX8RLVcUUN2kwxqdEBb8GbwGaCDR_uNlfclVDASE/edit?usp=sharing)
+#### Stakeholders
 
-["Other Types of Discrimination" PowerPoint](https://docs.google.com/presentation/d/1btork9Iyn--l6m0OI4u3wYNtatvIGH07-AE3C2CLgtE/edit?usp=sharing)
+<div style="padding-left:1px;">
 
-["Challenging Your Biases" videos](https://docs.google.com/presentation/d/1lITCgEiNiiqrxCwT8JBeqyIDAloRjaO8mEVS30dJTR0/edit?usp=sharing)
+* [Stakeholders Plan](https://drive.google.com/file/d/1sSfg5lvAFO9ZzBZfRDrJ7QwIiv0_-Uj_/view?usp=sharing)
+
+* [Program Review 2017](https://drive.google.com/file/d/1QntKGcKm9jrZlw0k0BTP07XtWfhx0Dbe/view?usp=sharing)
+
+* [Program Review 2020](https://drive.google.com/file/d/1AKjw2yeWp_InWVVwOsRlvVs4gwiSUnwE/view?usp=sharing)
+
+* [Area Coordinator Meeting 2018](https://drive.google.com/file/d/1fTI3mcSiywfbUBAedwJVYgWOyhe63HYb/view?usp=sharing)
+
+* [Area Coordinator Meeting 2020](https://drive.google.com/file/d/1WHFBQvIfj97zm7GmfYBfvQwYCDUnBFgI/view?usp=sharing)
+
+* [Student Teacher Feedback](https://drive.google.com/file/d/13PbUoFLpbo-bxLDGZK5Jeg8WM95PZcYA/view?usp=sharing)
+
+
+</div>
+
+----
+
+#### Other
+
+<div style="padding-left:1px;">
+
+* [Standards 2021](https://drive.google.com/file/d/1tEFae7t4OtkxTz9SEtW4wolegmJhruEa/view?usp=sharing)
+
+* [Recruitment Plan 2020](https://drive.google.com/file/d/1clqQs-zahLoKpXLThl1ADMtwI6q4w5X3/view?usp=sharing)
+
+* ["Stamped" PowerPoint](https://drive.google.com/file/d/1VWJKPLI5sR-QfXU_tTVeSG66ioqJgn2R/view?usp=sharing)
+
+* ["Cases of Racism Around the World" PowerPoint](https://docs.google.com/presentation/d/1j7i9jXmMANWImK3EKro4A8CyfxN0OmamLqbdipasY8c/edit?usp=sharing)
+
+* ["Definition of Racism Timeline"](https://docs.google.com/document/d/1F-AVX8RLVcUUN2kwxqdEBb8GbwGaCDR_uNlfclVDASE/edit?usp=sharing)
+
+* ["Other Types of Discrimination" PowerPoint](https://docs.google.com/presentation/d/1btork9Iyn--l6m0OI4u3wYNtatvIGH07-AE3C2CLgtE/edit?usp=sharing)
+
+* ["Challenging Your Biases" videos](https://docs.google.com/presentation/d/1lITCgEiNiiqrxCwT8JBeqyIDAloRjaO8mEVS30dJTR0/edit?usp=sharing)
+
+
+</div>
+
+----
+
+<footer></footer>
